@@ -6,7 +6,7 @@ import { useChannel } from '../hooks/useChannel'
 
 const Randomizer = ({ characters, roomId }) => {
   const [shuffled, setShuffled] = useState()
-  const [channel, ably] = useChannel('chat-demo', ({ data }) => {
+  const [channel, ably] = useChannel(roomId, ({ data }) => {
     data ? setShuffled(data) : handleRamdomize()
   })
 
