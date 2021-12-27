@@ -36,6 +36,17 @@
   border-radius: 0.4rem;
 }
 
+.button {
+  background-color: orange;
+  color: #fff;
+  margin-top: 1.5rem;
+  width: 100%;
+  border: unset;
+  height: 3rem;
+  font-size: 1.2rem;
+  border-radius: 0.4rem;
+}
+
 .footer a {
   display: flex;
   justify-content: center;
