@@ -8,7 +8,7 @@ export default function Home() {
       <Card>
         <Card.Img
           variant="top"
-          src="https://www.pcgamesn.com/wp-content/uploads/legacy/Dragon_Ball_FighterZ.jpg"
+          src="/card.jpg"
         />
         <Card.Body>
           <Card.Title>Dragon Ball FighterZ Randomizer</Card.Title>
