@@ -1,8 +1,5 @@
-import { Card, Button } from 'react-bootstrap'
+import { Card } from 'react-bootstrap'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
-import arrayShuffle from 'array-shuffle'
-import { useState } from 'react'
 
 export default function Home() {
   const r = (Math.random() + 1).toString(36).slice(2)
